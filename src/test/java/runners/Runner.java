@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "stepdefinitions",
-        tags = "@validInvalid",
+        tags = "@AddStudent",
         dryRun = false,
         plugin = {
                 "html:reports/html-reports/cucumber.html",
